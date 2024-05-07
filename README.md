@@ -1,35 +1,9 @@
-# Invoify
+# Inovice generator
 
-Invoify is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
+It is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
 
-![Invoify Website image](/public/assets/img/invoify-web-app.png)
+![Invoice Generator Website image](/public/assets/img/invoify-web-app.png)
 
-## Table of Contents
-
-- [Invoify](#invoify)
-  - [Table of Contents](#table-of-contents)
-  - [Technologies](#technologies)
-    - [Core Technologies](#core-technologies)
-    - [Additional Dependencies](#additional-dependencies)
-  - [Roadmap](#roadmap)
-  - [Demo](#demo)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [License](#license)
-
-
-## Technologies
-
-### Core Technologies
-
-- **Next.js:** React framework for SSR and client-side navigation.
-- **TypeScript:** JavaScript superset with static typing.
-- **Shadcn-UI:** UI library for enhanced visuals.
-- **Tailwind:** Utility-first CSS framework.
-- **React Hook Form:** Form management for React.
-- **Zod:** TypeScript-first schema validation.
-- **Puppeteer:** PDF generation with headless browsers.
 
 ### Additional Dependencies
 
@@ -39,13 +13,8 @@ Invoify is a web-based invoice generator application built with Next.js 13, Type
 ## Demo
 
 > [!NOTE]
-> Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aliabb01/invoify/issues/11).
 
-Visit the [live demo](https://invoify.vercel.app) to see Invoify in action.
-
-## Getting Started
-
-Follow these instructions to get Invoify up and running on your local machine.
+Follow these instructions to get Invoice generator up and running on your local machine.
 
 ### Prerequisites
 
@@ -56,8 +25,8 @@ Follow these instructions to get Invoify up and running on your local machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aliabb01/invoify.git
-   cd invoify
+   git clone https://github.com/apptechlab/invoice-generator.git
+   cd invoice-generator
    ```
 2. Install dependencies
    

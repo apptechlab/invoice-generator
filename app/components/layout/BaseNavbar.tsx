@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // Assets
-import Logo from "@/public/assets/img/invoify-logo.svg";
+import Logo from "@/public/assets/img/invoice.svg";
 
 // ShadCn
 import { Card } from "@/components/ui/card";
@@ -21,13 +21,13 @@ const BaseNavbar = () => {
     return (
         <header className="lg:container z-[99]">
             <nav>
-                <Card className="flex flex-wrap justify-between items-center px-5 gap-5">
+                <Card className="flex flex-wrap justify-between items-center gap-5 px-4 py-4">
                     <Link href={"/"}>
                         <Image
                             src={Logo}
                             alt="Invoify Logo"
-                            width={190}
-                            height={100}
+                            width={90}
+                            height={90}
                             loading="eager"
                         />
                     </Link>

@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { optional, z } from "zod";
 
 // Helpers
 import { formatNumberWithCommas } from "@/lib/helpers";
@@ -91,7 +91,7 @@ const InvoiceSenderSchema = z.object({
     zipCode: fieldValidators.zipCode,
     city: fieldValidators.city,
     country: fieldValidators.country,
-    email: fieldValidators.email,
+    email: fieldValidators.stringOptional,
     phone: fieldValidators.phone,
     customInputs: z.array(CustomInputSchema).optional(),
 });
@@ -102,7 +102,7 @@ const InvoiceReceiverSchema = z.object({
     zipCode: fieldValidators.zipCode,
     city: fieldValidators.city,
     country: fieldValidators.country,
-    email: fieldValidators.email,
+    email: fieldValidators.stringOptional,
     phone: fieldValidators.phone,
     customInputs: z.array(CustomInputSchema).optional(),
 });
