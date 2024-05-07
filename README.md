@@ -4,6 +4,18 @@ It is a web-based invoice generator application built with Next.js 13, TypeScrip
 
 ![Invoice Generator Website image](/public/assets/img/invoify-web-app.png)
 
+![To Download PDF](/public/assets/img/demo.png)
+STEPS:
+1. Click on generate PDF
+
+2. Wait until it loads
+
+3. You will get all the options like the screenshot above under the 
+generate pdf button (Preview , Download, Print)
+
+4. To save the invoice to history, click on save.
+
+5. All history can be accessed from Load invoice button
 
 ### Additional Dependencies
 
